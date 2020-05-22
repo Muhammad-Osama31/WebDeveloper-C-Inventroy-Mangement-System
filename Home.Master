@@ -1,0 +1,167 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="WebApplication1.Home" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 23px;
+        }
+        div {
+            background-color:LightCyan;
+        }
+    </style>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+    
+
+  <script src="assets2/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets2/popper/popper.min.js"></script>
+  <script src="assets2/tether/tether.min.js"></script>
+  <script src="assets2/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets2/ytplayer/jquery.mb.ytplayer.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+       
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+    <table class="auto-style1">
+        <tr>
+            <td >
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" >
+                         <div class="carousel-inner" >
+                              <div class="carousel-item active">
+                                 <img class="d-block w-100" src="1.png" alt="First slide" width="100" height="500">
+                        </div>
+                              <div class="carousel-item">
+                                 <img class="d-block w-100" src="small-business-cloud-applications.png" alt="Second slide">
+                        </div>
+                              <div class="carousel-item">
+                                 <img class="d-block w-100" src="inventory-png-3.png"" alt="Third slide">
+                        </div>
+                 </div>
+                                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                 <span class="sr-only">Previous</span>
+                                 </a>
+                                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                 </a>
+                </div>
+               
+            </td>
+        </tr>
+        <tr>
+            <td>
+                   <asp:Label ID="Label1" runat="server" BackColor="Blue" Text="Wellcome To Inventory Management System" Font-Bold="True" Font-Size="Larger"></asp:Label>
+
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style2">
+              <div >
+               
+                
+                   <nav class="navbar navbar-light bg-primary">
+                    <a href="Home1.aspx" class="navbar-brand" >Home</a>
+                    <a href="Dashboard.aspx" class="navbar-brand">Dashboard</a>
+                    <a href="Units.aspx" class="navbar-brand">Unit</a>
+                    <a href="Profile.aspx" class="navbar-brand">Profile</a>
+                    <a href="About.aspx" class="navbar-brand">About</a>
+                    <a href="Product.aspx"class="navbar-brand">Product</a>
+                     <br />
+                     <br />
+                     <br />
+                     <br />
+                    <a href="Login.aspx" class="navbar-brand">Login</a>
+                    <a href="Dashboard.aspx" class="navbar-brand">Register</a>
+
+
+
+
+                </nav>
+
+
+
+                   <br />
+                   <br />
+                  <img src="download4.png.jfif" />
+                <h1>  Drawing that parodies Tokyo Olympic logo pulled from website</h1>
+AP Published 12:37 a.m. ET May 21, 2020 | Updated 2:50 a.m. ET May 21, 2020
+
+TOKYO (AP) — A drawing that uses the Tokyo Olympic logo and combines it with features of the the COVID-19 virus was being removed on Thursday from the website of the Foreign Correspondents’ Club of Japan.
+
+Action to pull the drawing came after the Tokyo Olympic organizing committee demanded the withdrawal and claimed copyright infringement.
+
+FCCJ President Khaldon Azhari said the club’s lawyers agreed the drawing had likely infringed Japan’s tight copyright laws.
+
+He said the move would not limit the club’s freedom of expression, nor its ability in the future to use parody or satire. He also expressed “sincere regret to anyone who may have been offended on all sides of this issue.”
+
+“In the FCCJ’s 75-year history, it has always stood as a beacon for the freedom of press in Japan, and continues to stand for those values,”Azhari said in an online news conference. “And for the right of journalists to hold authorities to account. This is beyond any question.”
+
+Tokyo Olympic CEO Toshiro Muto confirmed later in the day that Azhari is a member of the organizing committee's media commission. He described the membership as “irrelevant" to this situation. He said the main issues were the copyright laws and “inconsideration” shown by using the image.
+
+“This is not related to conflict of interest at all,”Muto said.
+
+The look-alike emblem appeared on the cover of the club’s magazine published in April. It did not become an issue beyond a small circle in Japan until the Tokyo Olympic organizing committee raised it earlier this week.
+
+Since then it has been covered online and elsewhere, with the logo appearing frequently in searches.
+
+Äzhari read a letter from the Tokyo Olympic organizers to the FCCJ. It said: “To deliberately paint this emblem in a negative light by associating it with the COVID-19 virus ... is in direct opposition to the ideals of the Olympic movement.”
+
+Azhari said magazines would not be confiscated. Removing the drawing only applies to the website.
+
+“In the media in Japan, many of my colleagues feel very much annoyed by the restrictions on parody, and on the the TV footage," Azhari said. "There are so many restrictions here. I hope this incident will be a very good chance to open a good discussion about this issue in Japan.”
+
+
+                   <br />
+                  <br />
+                   <br />
+                   <br />
+                  <br />
+                  <br />
+                   <br />
+                   <br />
+                  <footer>
+                      <p>Author: Muhammad Osama</p>
+                      <p><a href="mailto:hege@example.com">muhammad.37900@iqra.edu.pk</a></p>
+                </footer>
+
+              </div> 
+
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>
+                </td>
+            <td></td>
+        </tr>
+
+      
+    </table>
+       
+    </form>
+    </body>
+</html>
